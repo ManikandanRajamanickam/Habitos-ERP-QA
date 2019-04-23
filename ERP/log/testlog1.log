@@ -96,3 +96,25 @@ Session ID: cbea27a2245d2aba9d94f1f1da12b6ec
 2019-04-23 16:26:16,686 [main] INFO Habitos - CRM _ INFO - ADD - Verify that if click add new button it should redirect to add new screen
 2019-04-23 16:26:16,784 [main] INFO Habitos - CRM _ INFO - Verify that if the user name field is focused
 2019-04-23 16:26:17,611 [main] INFO Habitos - CRM _ INFO - User can enter the name in name field
+2019-04-23 16:58:12,366 [main] INFO Habitos - CRM _ INFO - Verify that if click CRM info it should redirect to crm info index screen 
+2019-04-23 16:58:24,000 [main] ERROR Habitos - CRM _ INFO - UPDATE - Verify that the User can able to click edit button
+2019-04-23 16:58:25,409 [main] INFO Habitos - CRM _ INFO - UPDATE - Verify that user can update the mobile number in mobile field
+2019-04-23 16:58:28,066 [main] INFO Habitos - CRM _ INFO - UPDATE - Verify that user can able to click the  submit button
+2019-04-23 16:58:32,478 [main] INFO Habitos - CRM _ INFO - UPDATE - Client was successfully updated
+2019-04-23 16:58:38,762 [main] INFO Habitos - CRM _ INFO - VIEW  - Verify that if click view icon it should display the view screen automatically
+2019-04-23 16:58:38,777 [main] INFO Habitos - CRM _ INFO - VIEW  - Verify that the client values are correctly displayed or not
+2019-04-23 17:01:01,762 [main] INFO Habitos - CRM _ INFO - Verify that if click CRM info it should redirect to crm info index screen 
+2019-04-23 17:01:10,477 [main] ERROR Habitos - CRM _ INFO - UPDATE - Verify that the User can able to click edit button
+2019-04-23 17:01:12,209 [main] INFO Habitos - CRM _ INFO - UPDATE - Verify that user can update the mobile number in mobile field
+2019-04-23 17:01:15,015 [main] INFO Habitos - CRM _ INFO - UPDATE - Verify that user can able to click the  submit button
+2019-04-23 17:01:20,864 [main] INFO Habitos - CRM _ INFO - UPDATE - Client was successfully updated
+2019-04-23 17:01:27,536 [main] INFO Habitos - CRM _ INFO - VIEW  - Verify that if click view icon it should display the view screen automatically
+2019-04-23 17:01:27,536 [main] INFO Habitos - CRM _ INFO - VIEW  - Verify that the client values are correctly displayed or not
+2019-04-23 17:02:30,983 [main] INFO Habitos - CRM _ INFO - Verify that if click CRM info it should redirect to crm info index screen 
+2019-04-23 17:07:02,375 [main] INFO Habitos - CRM _ INFO - Verify that if click CRM info it should redirect to crm info index screen 
+2019-04-23 17:07:12,571 [main] INFO Habitos - CRM _ INFO - UPDATE - Verify that if click edit button it should redirect to related screen
+2019-04-23 17:07:14,087 [main] INFO Habitos - CRM _ INFO - UPDATE - Verify that user can update the mobile number in mobile field
+2019-04-23 17:07:17,021 [main] INFO Habitos - CRM _ INFO - UPDATE - Verify that user can able to click the  submit button
+2019-04-23 17:07:21,536 [main] INFO Habitos - CRM _ INFO - UPDATE - Client was successfully updated
+2019-04-23 17:07:28,041 [main] INFO Habitos - CRM _ INFO - VIEW  - Verify that if click view icon it should display the view screen automatically
+2019-04-23 17:07:28,041 [main] INFO Habitos - CRM _ INFO - VIEW  - Verify that the client values are correctly displayed or not

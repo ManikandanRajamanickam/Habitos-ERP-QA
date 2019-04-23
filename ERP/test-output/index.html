@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\altius\AppData\Local\Temp\testng-eclipse-2077151633\testng-customsuite.xml</span>
+                    <span>C:\Users\altius\AppData\Local\Temp\testng-eclipse-1177393045\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Idlidabba.ERP.Login" hash-for-method="Invalid_Login">Invalid_Login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Idlidabba.ERP.Crm" hash-for-method="Valid_Login">Valid_Login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Idlidabba.ERP.Login" hash-for-method="Invalid_Login1">Invalid_Login1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Idlidabba.ERP.Crm" hash-for-method="crm_info">crm_info</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Idlidabba.ERP.Login" hash-for-method="Valid_Login">Valid_Login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Idlidabba.ERP.Crm" hash-for-method="crm_info_update">crm_info_update</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Idlidabba.ERP.Crm" hash-for-method="crm_info_view">crm_info_view</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -130,23 +135,9 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Idlidabba.ERP.Login</span>
+              <span class="class-name">Idlidabba.ERP.Crm</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Invalid_Login">
-                  </a> <!-- Invalid_Login -->
-                  <span class="method-name">Invalid_Login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Invalid_Login1">
-                  </a> <!-- Invalid_Login1 -->
-                  <span class="method-name">Invalid_Login1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="Valid_Login">
@@ -154,12 +145,33 @@
                   <span class="method-name">Valid_Login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="crm_info">
+                  </a> <!-- crm_info -->
+                  <span class="method-name">crm_info</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="crm_info_update">
+                  </a> <!-- crm_info_update -->
+                  <span class="method-name">crm_info_update</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="crm_info_view">
+                  </a> <!-- crm_info_view -->
+                  <span class="method-name">crm_info_view</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\altius\AppData\Local\Temp\testng-eclipse-2077151633\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\altius\AppData\Local\Temp\testng-eclipse-1177393045\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -168,7 +180,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Idlidabba.ERP.Login&quot;/&gt;
+      &lt;class name=&quot;Idlidabba.ERP.Crm&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -208,24 +220,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Invalid_Login1')
-data.setCell(0, 2, 'Idlidabba.ERP.Login')
-data.setCell(0, 3, 7527);
+data.setCell(0, 1, 'crm_info_update')
+data.setCell(0, 2, 'Idlidabba.ERP.Crm')
+data.setCell(0, 3, 19128);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Valid_Login')
-data.setCell(1, 2, 'Idlidabba.ERP.Login')
-data.setCell(1, 3, 6990);
+data.setCell(1, 1, 'crm_info')
+data.setCell(1, 2, 'Idlidabba.ERP.Crm')
+data.setCell(1, 3, 7701);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Invalid_Login')
-data.setCell(2, 2, 'Idlidabba.ERP.Login')
-data.setCell(2, 3, 2300);
+data.setCell(2, 1, 'Valid_Login')
+data.setCell(2, 2, 'Idlidabba.ERP.Crm')
+data.setCell(2, 3, 7338);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'crm_info_view')
+data.setCell(3, 2, 'Idlidabba.ERP.Crm')
+data.setCell(3, 3, 6489);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -251,26 +267,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Idlidabba.ERP.Login</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Idlidabba.ERP.Crm</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">Invalid_Login</span>
-                <span class="method-start">12160 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Invalid_Login1</span>
-                <span class="method-start">14471 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">Valid_Login</span>
-                <span class="method-start">22004 ms</span>
+                <span class="method-start">10495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">crm_info</span>
+                <span class="method-start">17846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">crm_info_update</span>
+                <span class="method-start">25553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">crm_info_view</span>
+                <span class="method-start">44697 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">28999 ms</span>
+                <span class="method-start">51186 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
  
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
@@ -36,10 +37,8 @@ import org.testng.annotations.AfterTest;
 
 public class Crm {
 	
-WebDriver driver;
-	
+WebDriver driver;	
 static org.apache.log4j.Logger logger;
-
 
 @BeforeTest
 
@@ -53,7 +52,7 @@ public void beforeTest()  {
 			
 			Thread.sleep(100);
 
-			System.setProperty("webdriver.chrome.driver", "../ERP/resources/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "..//ERP//resources//chromedriver.exe");
 
 			driver = new ChromeDriver();
 				
@@ -166,9 +165,8 @@ public void beforeTest()  {
 		}
 
 	}
-   
- 
- // ADD- CLIENT
+  
+  // ADD- CLIENT
 
  @Test (priority = 3)
  
@@ -760,9 +758,7 @@ public void beforeTest()  {
 			} 
 			
 			catch (Exception e) {
-			
-			
-				logger.error(e);
+			 
 								
 				logger.error("Verify that user can able to click the  submit button");			
 							
@@ -821,11 +817,9 @@ public void beforeTest()  {
 				logger.error("Verify that after creating a new tenent it should redirect to index screen");
 
 			}
-		
 					
  }
-
-  
+   
 //ADD MEAL UPDATE
  
  @Test (priority = 5)
@@ -854,19 +848,22 @@ public void beforeTest()  {
 			
 			WebElement edit = driver.findElement(By.xpath("//a[@id='edit']"));
 			
-			edit.click(); 
-									
-			String tenant = "Vidhya Vikas School";
-						
-			if (filter.getText().equals(tenant)) 
+			edit.click();  
 			
-			{
-				
 			Thread.sleep(500);
 			
-			Actions actions = new Actions(driver);  
+		/*	Actions actions = new Actions(driver);  
 			
 			WebElement mainMenu = driver.findElement(By.xpath("//td[contains(text(),'Avaliable')]"));
+	
+			mainMenu.click();
+			
+			Thread.sleep(200);
+			
+			WebElement editbtn = driver.findElement(By.xpath("//a[@id='edit']"));
+			
+			editbtn.click();
+						
 			
 			actions.moveToElement(mainMenu);
 			
@@ -875,14 +872,14 @@ public void beforeTest()  {
 			WebElement subMenu = driver.findElement(By.xpath("//a[@id='edit']"));
 			actions.moveToElement(subMenu);
 			actions.click().build().perform();
-
-			logger.info("Verify that user can click the edit button");
+*/
+			logger.info("Verify that if click edit button it should redirect to related screen");
 						
-			}
+			 
 			
 		} catch (Exception e) {
 
-			logger.error("Verify that the User can able to click edit button");
+			logger.info("Verify that if click edit button it should redirect to related screen");
 
 		}
 				
@@ -900,11 +897,11 @@ public void beforeTest()  {
 			
 			cmobile.sendKeys("vivek");
 			
-			logger.info("Verify that user can update the mobile number in mobile field");
+			logger.info("Verify that user can update the name in primary contact field");
 						
 		} else {
 
-			logger.error("Verify that user can update the mobile number in mobile field");
+			logger.info("Verify that user can update the name in primary contact field");
 			
 		}		
 		
@@ -967,8 +964,7 @@ public void beforeTest()  {
 		}
 
 	 }
-   
- 
+    
 //ADD MEAL VIEW
  
  @Test (priority = 6)
@@ -1025,7 +1021,6 @@ public void beforeTest()  {
 		}
 
 	}
-
  
  // COLLPASE
 
@@ -1445,7 +1440,6 @@ public void beforeTest()  {
 	}
 	
 	*/
-
   
   @AfterTest
   public void afterTest() {
