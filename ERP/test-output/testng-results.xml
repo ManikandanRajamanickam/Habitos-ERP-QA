@@ -1,37 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51442" started-at="2019-04-23T11:36:36Z" finished-at="2019-04-23T11:37:28Z">
+  <suite name="Default suite" duration-ms="95494" started-at="2019-04-23T12:16:06Z" finished-at="2019-04-23T12:17:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51442" started-at="2019-04-23T11:36:36Z" finished-at="2019-04-23T11:37:28Z">
-      <class name="Idlidabba.ERP.Crm">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Idlidabba.ERP.Crm@c038203]" name="beforeTest" is-config="true" duration-ms="10441" started-at="2019-04-23T17:06:36Z" finished-at="2019-04-23T17:06:47Z">
+    <test name="Default test" duration-ms="95494" started-at="2019-04-23T12:16:06Z" finished-at="2019-04-23T12:17:42Z">
+      <class name="Idlidabba.ERP.MenuPlanner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Idlidabba.ERP.MenuPlanner@cc285f4]" name="beforeTest" is-config="true" duration-ms="8691" started-at="2019-04-23T17:46:06Z" finished-at="2019-04-23T17:46:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Valid_Login()[pri:1, instance:Idlidabba.ERP.Crm@c038203]" name="Valid_Login" duration-ms="7338" started-at="2019-04-23T17:06:47Z" finished-at="2019-04-23T17:06:54Z">
+        <test-method status="PASS" signature="Valid_Login()[pri:1, instance:Idlidabba.ERP.MenuPlanner@cc285f4]" name="Valid_Login" duration-ms="9941" started-at="2019-04-23T17:46:15Z" finished-at="2019-04-23T17:46:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_Login -->
-        <test-method status="PASS" signature="crm_info()[pri:2, instance:Idlidabba.ERP.Crm@c038203]" name="crm_info" duration-ms="7701" started-at="2019-04-23T17:06:54Z" finished-at="2019-04-23T17:07:02Z">
+        <test-method status="PASS" signature="Menu_Planner()[pri:2, instance:Idlidabba.ERP.MenuPlanner@cc285f4]" name="Menu_Planner" duration-ms="8607" started-at="2019-04-23T17:46:25Z" finished-at="2019-04-23T17:46:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crm_info -->
-        <test-method status="PASS" signature="crm_info_update()[pri:5, instance:Idlidabba.ERP.Crm@c038203]" name="crm_info_update" duration-ms="19128" started-at="2019-04-23T17:07:02Z" finished-at="2019-04-23T17:07:21Z">
+        </test-method> <!-- Menu_Planner -->
+        <test-method status="PASS" signature="Menu_planner_plan()[pri:3, instance:Idlidabba.ERP.MenuPlanner@cc285f4]" name="Menu_planner_plan" duration-ms="16099" started-at="2019-04-23T17:46:34Z" finished-at="2019-04-23T17:46:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crm_info_update -->
-        <test-method status="PASS" signature="crm_info_view()[pri:6, instance:Idlidabba.ERP.Crm@c038203]" name="crm_info_view" duration-ms="6489" started-at="2019-04-23T17:07:21Z" finished-at="2019-04-23T17:07:28Z">
+        </test-method> <!-- Menu_planner_plan -->
+        <test-method status="PASS" signature="Breakfast()[pri:4, instance:Idlidabba.ERP.MenuPlanner@cc285f4]" name="Breakfast" duration-ms="16128" started-at="2019-04-23T17:46:50Z" finished-at="2019-04-23T17:47:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crm_info_view -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Idlidabba.ERP.Crm@c038203]" name="afterTest" is-config="true" duration-ms="241" started-at="2019-04-23T17:07:28Z" finished-at="2019-04-23T17:07:28Z">
+        </test-method> <!-- Breakfast -->
+        <test-method status="PASS" signature="menuplan_row2()[pri:5, instance:Idlidabba.ERP.MenuPlanner@cc285f4]" name="menuplan_row2" duration-ms="9771" started-at="2019-04-23T17:47:06Z" finished-at="2019-04-23T17:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuplan_row2 -->
+        <test-method status="PASS" signature="menuplan_row3()[pri:6, instance:Idlidabba.ERP.MenuPlanner@cc285f4]" name="menuplan_row3" duration-ms="8262" started-at="2019-04-23T17:47:16Z" finished-at="2019-04-23T17:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuplan_row3 -->
+        <test-method status="PASS" signature="Menu_plan_client()[pri:7, instance:Idlidabba.ERP.MenuPlanner@cc285f4]" name="Menu_plan_client" duration-ms="4779" started-at="2019-04-23T17:47:24Z" finished-at="2019-04-23T17:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu_plan_client -->
+        <test-method status="PASS" signature="assignedClient()[pri:8, instance:Idlidabba.ERP.MenuPlanner@cc285f4]" name="assignedClient" duration-ms="12817" started-at="2019-04-23T17:47:29Z" finished-at="2019-04-23T17:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignedClient -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Idlidabba.ERP.MenuPlanner@cc285f4]" name="afterTest" is-config="true" duration-ms="256" started-at="2019-04-23T17:47:42Z" finished-at="2019-04-23T17:47:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- Idlidabba.ERP.Crm -->
+      </class> <!-- Idlidabba.ERP.MenuPlanner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

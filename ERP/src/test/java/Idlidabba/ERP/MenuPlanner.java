@@ -145,7 +145,6 @@ public class MenuPlanner {
 
 			logger.error("Verify  that if click master menu it getting to collapse");
 		}
-
 	}
 	
 	// MENU PLANNING

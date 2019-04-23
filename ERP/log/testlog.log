@@ -118,3 +118,108 @@ Session ID: cbea27a2245d2aba9d94f1f1da12b6ec
 2019-04-23 17:07:21,536 - Habitos - CRM _ INFO - UPDATE -INFO - Client was successfully updated
 2019-04-23 17:07:28,041 - Habitos - CRM _ INFO - VIEW  -INFO - Verify that if click view icon it should display the view screen automatically
 2019-04-23 17:07:28,041 - Habitos - CRM _ INFO - VIEW  -INFO - Verify that the client values are correctly displayed or not
+2019-04-23 17:33:37,193 - Habitos - Menu Planner -INFO - Verify  that if click master menu it getting to collapse
+2019-04-23 17:33:55,364 - Habitos - Menu Planner -INFO - Verify that if the plan name field is focus
+2019-04-23 17:33:58,675 - Habitos - Menu Planner -INFO - user can enter the plan name in input field
+2019-04-23 17:33:59,795 - Habitos - Menu Planner -INFO - user can select the  Plan creation date using date picker
+2019-04-23 17:34:00,940 - Habitos - Menu Planner -INFO - User can assign no of days
+2019-04-23 17:34:02,094 - Habitos - Menu Planner -INFO - Verify that if the break fast meal course is present
+2019-04-23 17:34:03,802 - Habitos - Menu Planner -INFO - If click add row button it should create the new row for meal course
+2019-04-23 17:34:05,785 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:07,561 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:08,242 - Habitos - Menu Planner -INFO - User can able to select the check box
+2019-04-23 17:34:10,152 - Habitos - Menu Planner -INFO - Verify that user can able to select the 2nd meal category
+2019-04-23 17:34:11,205 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:11,820 - Habitos - Menu Planner -INFO - User can able to select the check box
+2019-04-23 17:34:13,552 - Habitos - Menu Planner -INFO - Verify that user can able to select the 3rd meal category
+2019-04-23 17:34:15,187 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:15,735 - Habitos - Menu Planner -INFO - User can able to select the check box
+2019-04-23 17:34:17,849 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:19,403 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:21,220 - Habitos - Menu Planner -INFO - Verify that user can able to select the 2nd meal category
+2019-04-23 17:34:22,935 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:24,582 - Habitos - Menu Planner -INFO - Verify that user can able to select the 3rd meal category
+2019-04-23 17:34:26,150 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:28,006 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:29,011 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:30,687 - Habitos - Menu Planner -INFO - Verify that user can able to select the 2nd meal category
+2019-04-23 17:34:31,985 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:34:33,920 - Habitos - Menu Planner -INFO - Verify that user can able to select the 3rd meal category
+2019-04-23 17:34:36,383 - Habitos - Menu Planner -INFO - user can able to select the client type into school
+2019-04-23 17:34:38,846 - Habitos - Menu Planner -INFO - User can able to select the spread type into 3 Spread
+2019-04-23 17:34:40,925 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal course
+2019-04-23 17:34:51,242 - Habitos - Menu Planner -ERROR - Verify that it should display the  Client while filtering the client type, Category, Spread type
+2019-04-23 17:34:51,242 - Habitos - Menu Planner -ERROR - Verify that if click the Client it should selected the check box automatically
+2019-04-23 17:34:53,414 - Habitos - Menu Planner -ERROR - Verify that if click the Assign button it should display the success Alert message for Menu has planned
+2019-04-23 17:34:53,743 - Habitos - Menu Planner -ERROR - If click Proceed to menu button it should redirect to Menu cycle screen automatically
+2019-04-23 17:37:16,226 - Habitos - CRM _ INFO -INFO - Verify that if click CRM info it should redirect to crm info index screen 
+2019-04-23 17:37:19,555 - Habitos - CRM _ INFO - ADD -INFO - Verify that if click add new button it should redirect to add new screen
+2019-04-23 17:37:19,635 - Habitos - CRM _ INFO - ADD -INFO - Verify that if the user name field is focused
+2019-04-23 17:37:20,416 - Habitos - CRM _ INFO - ADD -INFO - User can enter the name in name field
+2019-04-23 17:37:21,049 - Habitos - CRM _ INFO - ADD -INFO - User can able to select the client type
+2019-04-23 17:37:24,600 - Habitos - CRM _ INFO - ADD -INFO - User can enter the client email - id 
+2019-04-23 17:37:26,974 - Habitos - CRM _ INFO - ADD -INFO - Verify that if the customer logo image getting to upload
+2019-04-23 17:37:28,129 - Habitos - CRM _ INFO - ADD -INFO - User can enter the address in address field
+2019-04-23 17:37:28,689 - Habitos - CRM _ INFO - ADD -INFO - User can able to select the facilities
+2019-04-23 17:37:30,152 - Habitos - CRM _ INFO - ADD -INFO - user can enter the lat value
+2019-04-23 17:37:31,504 - Habitos - CRM _ INFO - ADD -INFO - user can enter the longtitue values
+2019-04-23 17:37:32,572 - Habitos - CRM _ INFO - ADD -INFO - Verify that if user can enter the contact person name
+2019-04-23 17:37:33,299 - Habitos - CRM _ INFO - ADD -INFO - Verify that if user can enter the Point of contact name
+2019-04-23 17:37:33,956 - Habitos - CRM _ INFO - ADD -INFO - Verify that user can enter the mobile number in mobile field
+2019-04-23 17:37:36,631 - Habitos - CRM _ INFO - ADD -INFO - Verify that user can enter the POC mobile number in mobile no  field
+2019-04-23 17:37:37,354 - Habitos - CRM _ INFO - ADD -INFO - Verify that if the user can enter the GST NO
+2019-04-23 17:37:38,008 - Habitos - CRM _ INFO - ADD -INFO - Verify that user can click the client color
+2019-04-23 17:37:38,446 - Habitos - CRM _ INFO - ADD -INFO - Verify that user can able to select the meal time
+2019-04-23 17:37:39,206 - Habitos - CRM _ INFO - ADD -INFO - Verify that user can able to select meal type
+2019-04-23 17:37:40,042 - Habitos - CRM _ INFO - ADD -INFO - Verify that user can able to select Student type
+2019-04-23 17:37:40,374 - Habitos - CRM _ INFO - ADD -INFO - Verify that user can able to enter the total count
+2019-04-23 17:37:41,073 - Habitos - CRM _ INFO - ADD -INFO - Verify that user can able to select the consume time
+2019-04-23 17:37:41,585 - Habitos - CRM _ INFO - ADD -INFO - Verify that user can able to select the dispatch time
+2019-04-23 17:37:42,074 - Habitos - CRM _ INFO - ADD -INFO - Verify that user can able to select the delivery time
+2019-04-23 17:46:26,096 - Habitos - Menu Planner -INFO - Verify  that if click master menu it getting to collapse
+2019-04-23 17:46:44,233 - Habitos - Menu Planner -INFO - Verify that if the plan name field is focus
+2019-04-23 17:46:47,891 - Habitos - Menu Planner -INFO - user can enter the plan name in input field
+2019-04-23 17:46:49,113 - Habitos - Menu Planner -INFO - user can select the  Plan creation date using date picker
+2019-04-23 17:46:50,227 - Habitos - Menu Planner -INFO - User can assign no of days
+2019-04-23 17:46:51,384 - Habitos - Menu Planner -INFO - Verify that if the break fast meal course is present
+2019-04-23 17:46:53,655 - Habitos - Menu Planner -INFO - If click add row button it should create the new row for meal course
+2019-04-23 17:46:56,423 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:46:57,890 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:46:58,468 - Habitos - Menu Planner -INFO - User can able to select the check box
+2019-04-23 17:47:00,941 - Habitos - Menu Planner -INFO - Verify that user can able to select the 2nd meal category
+2019-04-23 17:47:01,971 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:47:02,527 - Habitos - Menu Planner -INFO - User can able to select the check box
+2019-04-23 17:47:04,247 - Habitos - Menu Planner -INFO - Verify that user can able to select the 3rd meal category
+2019-04-23 17:47:05,818 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:47:06,360 - Habitos - Menu Planner -INFO - User can able to select the check box
+2019-04-23 17:47:08,227 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:47:09,465 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:47:11,222 - Habitos - Menu Planner -INFO - Verify that user can able to select the 2nd meal category
+2019-04-23 17:47:12,799 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:47:14,641 - Habitos - Menu Planner -INFO - Verify that user can able to select the 3rd meal category
+2019-04-23 17:47:16,141 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:47:17,883 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:47:18,885 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:47:20,485 - Habitos - Menu Planner -INFO - Verify that user can able to select the 2nd meal category
+2019-04-23 17:47:21,446 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal category
+2019-04-23 17:47:23,085 - Habitos - Menu Planner -INFO - Verify that user can able to select the 3rd meal category
+2019-04-23 17:47:25,013 - Habitos - Menu Planner -INFO - user can able to select the client type into school
+2019-04-23 17:47:27,079 - Habitos - Menu Planner -INFO - User can able to select the spread type into 3 Spread
+2019-04-23 17:47:29,194 - Habitos - Menu Planner -INFO - Verify that user can able to select the meal course
+2019-04-23 17:47:39,543 - Habitos - Menu Planner -ERROR - Verify that it should display the  Client while filtering the client type, Category, Spread type
+2019-04-23 17:47:39,544 - Habitos - Menu Planner -ERROR - Verify that if click the Client it should selected the check box automatically
+2019-04-23 17:47:41,747 - Habitos - Menu Planner -ERROR - Verify that if click the Assign button it should display the success Alert message for Menu has planned
+2019-04-23 17:47:42,009 - Habitos - Menu Planner -ERROR - If click Proceed to menu button it should redirect to Menu cycle screen automatically
+2019-04-23 18:18:27,828 -  Habitos - Menu Cycle -INFO - browser gets open
+2019-04-23 18:18:39,869 -  Habitos - Menu Cycle -INFO - Verify  that if click master menu it getting to collapse
+2019-04-23 18:18:40,580 -  Habitos - Menu Cycle -INFO - If click Master Menu it should display the sub menus
+2019-04-23 18:18:47,703 -  Habitos - Menu Cycle -INFO - If Search the Plan name into search box it should fileter the plan
+2019-04-23 18:18:53,243 -  Habitos - Menu Cycle -INFO - If click edit button it should redirect to related screen
+2019-04-23 18:19:13,456 -  Habitos - Menu Cycle -INFO - Verify that if sub plan is displayed or not
+2019-04-23 18:19:14,100 -  Habitos - Menu Cycle -INFO - Verify that if should open the card while clicking the plan name
+2019-04-23 18:19:16,369 -  Habitos - Menu Cycle -INFO - Veify that if click tenant name it should open the relared meal card
+2019-04-23 18:19:17,588 -  Habitos - Menu Cycle -INFO - Verify that if the client type is correct
+2019-04-23 18:19:17,758 -  Habitos - Menu Cycle -INFO - Verify that if the client category is correctly displayed
+2019-04-23 18:19:17,906 -  Habitos - Menu Cycle -INFO - Verify that if the spread type is displayed corrected
+2019-04-23 18:19:20,893 -  Habitos - Menu Cycle -INFO - verify that user can assign the date
+2019-04-23 18:19:21,273 -  Habitos - Menu Cycle -INFO - verify that if the check box is checked or not

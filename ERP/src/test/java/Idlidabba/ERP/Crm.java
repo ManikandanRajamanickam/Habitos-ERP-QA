@@ -609,10 +609,7 @@ public void beforeTest()  {
 				
 				stype.sendKeys(Keys.ENTER);
 				
-				Select studenttype = new Select(stype);	
 				
-				studenttype.selectByIndex(2);
-
 				logger.info("Verify that user can able to select Student type");
 
 			} catch (Exception e) {
