@@ -198,8 +198,8 @@ public void beforeTest()  {
 
 			// customer name
 
-			logger = logger.getLogger("Habitos - CRM _ INFO");
-
+			logger = logger.getLogger("Habitos - CRM _ INFO - ADD");
+			
 			WebElement cname = driver.findElement(By.id("tenant_name"));
 
 			if (cname.equals(driver.switchTo().activeElement())) {
@@ -562,7 +562,7 @@ public void beforeTest()  {
 
 				Select time = new Select(mtime);
 
-				time.selectByIndex(1);
+				time.selectByIndex(2);
 
 				logger.info("Verify that user can able to select the meal time");
 
@@ -711,114 +711,68 @@ public void beforeTest()  {
 			
 			// SUBMIT BUTTON
 			
-			try {
-			
-			 
-			Thread.sleep(5000);
-			
-			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		try {
 
-			FileUtils.copyFile(scrFile, new File("C:\\Screenshots\\info.jpg"));
-			
+			Thread.sleep(500);
 
 			WebElement submit = driver.findElement(By.name("commit"));
 
 			submit.click();
 
-			File scrFile1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
-			FileUtils.copyFile(scrFile1, new File("C:\\Screenshots\\info1.jpg"));
-			
-			
-			
 			logger.info("Veify that if the user can click the submit button");
-				
-				if (submit.isEnabled()) 
-				{
 
-				System.out.println("first step 5");
-				
-				submit.click();
-				
-				System.out.println("first step 6");
+		}
 
-				Thread.sleep(1000);
+		catch (Exception e) {
 
-				logger.info("Verify that user can able to click the  submit button");
-					
-				System.out.println("first step 7");
-					
-				} else {
-					
-					System.out.println("submit fail");
-				}					
-				 
-				 
+			logger.error("Verify that user can able to click the  submit button");
+
+		}					
 			
-			} 
-			
-			catch (Exception e) {
-			 
-								
-				logger.error("Verify that user can able to click the  submit button");			
-							
-			}
-					
-			
-			try {
+		try {
 
-				Thread.sleep(5000);
+			Thread.sleep(5000);
 
-				WebElement srch = driver.findElement(By.xpath("//input[@type='search']"));
-				
-				srch.clear();
- 
-				srch.sendKeys("Vidhya Vikas School");
+			WebElement srch = driver.findElement(By.xpath("//input[@type='search']"));
 
-				Thread.sleep(200);
-				
-				File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			srch.clear();
 
-				FileUtils.copyFile(scrFile, new File("C:\\Screenshots\\error1.jpg"));
-				
-				WebElement filter = driver.findElement(By.xpath("//td[@class='sorting_1']"));
-								
-				String tenant = "Vidhya Vikas School";
-											
-				if (filter.getText().equals(tenant)) {
-					
-					logger.info("Verify that if the client was successfully created");
-				
-				}
-								
-			} catch (Exception e) {
-				
-				File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			srch.sendKeys("Vidhya Vikas School");
 
-				FileUtils.copyFile(scrFile, new File("C:\\Screenshots\\error1.jpg"));
+			Thread.sleep(200);
 
-				logger.error("Verify that if the client was successfully created");
-			}
-							
-									
-	
- 			// Index Page checking
-						
-				String url = "http://192.168.1.230:4000/tenants";
+			WebElement filter = driver.findElement(By.xpath("//td[@class='sorting_1']"));
 
-			Thread.sleep(1000);
-						
-			if (driver.getCurrentUrl().equals(url)) {
+			String tenant = "Vidhya Vikas School";
 
-				logger.info("Verify that after creating a new tenent it should redirect to index screen");
-								
-			} else {
+			if (filter.getText().equals(tenant)) {
 
-				logger.error("Verify that after creating a new tenent it should redirect to index screen");
+				logger.info("Verify that if the client was successfully created");
 
 			}
-					
- }
+
+		} catch (Exception e) {
+
+			logger.error("Verify that if the client was successfully created");
+		}
+
+		// Index Page checking
+
+		String url = "http://192.168.1.230:4000/tenants";
+
+		Thread.sleep(1000);
+
+		if (driver.getCurrentUrl().equals(url)) {
+
+			logger.info("Verify that after creating a new tenent it should redirect to index screen");
+
+		} else {
+
+			logger.error("Verify that after creating a new tenent it should redirect to index screen");
+
+		}
+
+	}
    
 //ADD MEAL UPDATE
  
