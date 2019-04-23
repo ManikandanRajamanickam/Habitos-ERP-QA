@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+  <!-- <test name="Test">
+    <classes>
+      <class name="Idlidabba.ERP.Cooksheet"/>
+      <class name="Idlidabba.ERP.Department"/>
+      <class name="Idlidabba.ERP.Login"/>
+      <class name="Idlidabba.ERP.MenuPlanner"/>
+      
+      <class name="Idlidabba.ERP.VesselPlanner"/>
+      <class name="Idlidabba.ERP.Depriceation"/>
+      <class name="Idlidabba.ERP.VesselDispatch"/>
+      <class name="Idlidabba.ERP.AssignedMenu"/>
+      <class name="Idlidabba.ERP.Assets"/>
+      <class name="Idlidabba.ERP.Utensils"/>
+      <class name="Idlidabba.ERP.Crm"/>
+    </classes>
+  </test> Test -->
   
-<!--   <test name="Test1">
+  
+ <!--  <test name="Test1">
 		<classes>
 			 <class name="Idlidabba.ERP.Login"/>
 		</classes>
@@ -12,14 +29,14 @@
 		<classes>
 			<class name="Idlidabba.ERP.Crm"/>
 		</classes>
-	</test> Test2
+	</test> Test2 
 
 	<test name="Test3">
 		<classes>
 			<class name="Idlidabba.ERP.MenuPlanner"/>
 		</classes>
-	</test> Test3 -->
- 
+	</test> Test3
+  -->
 	<test name="Test4">
 		<classes>
 			<class name="Idlidabba.ERP.MenuCycle"/>
@@ -73,5 +90,7 @@
 			 <class name="Idlidabba.ERP.AssignedMenu"/>
 		</classes>
 	</test> <!-- Test12 --> 
+  
+  
   
 </suite> <!-- Suite -->

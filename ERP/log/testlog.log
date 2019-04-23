@@ -223,3 +223,9 @@ Session ID: cbea27a2245d2aba9d94f1f1da12b6ec
 2019-04-23 18:19:17,906 -  Habitos - Menu Cycle -INFO - Verify that if the spread type is displayed corrected
 2019-04-23 18:19:20,893 -  Habitos - Menu Cycle -INFO - verify that user can assign the date
 2019-04-23 18:19:21,273 -  Habitos - Menu Cycle -INFO - verify that if the check box is checked or not
+2019-04-23 18:26:31,648 -  Habitos - Menu Cycle -INFO - browser gets open
+2019-04-23 18:26:42,219 -  Habitos - Menu Cycle -INFO - Verify  that if click master menu it getting to collapse
+2019-04-23 18:26:42,667 -  Habitos - Menu Cycle -INFO - If click Master Menu it should display the sub menus
+2019-04-23 18:26:48,683 -  Habitos - Menu Cycle -INFO - If Search the Plan name into search box it should fileter the plan
+2019-04-23 18:26:54,133 -  Habitos - Menu Cycle -INFO - If click edit button it should redirect to related screen
+2019-04-23 18:27:20,263 -  Habitos - Menu Cycle -ERROR - Verify that if should open the card while clicking the plan name
