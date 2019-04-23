@@ -1,0 +1,98 @@
+2019-04-23 16:01:04,872 [main] INFO Habitos - LOGIN - browser gets open
+2019-04-23 16:01:11,166 [main] INFO Habitos - LOGIN - browser gets valid ip address
+2019-04-23 16:01:11,600 [main] INFO Habitos - LOGIN - Verify that if the User Name field is present 
+2019-04-23 16:01:11,628 [main] INFO Habitos - LOGIN - Verify that if the username fields get autofocus
+2019-04-23 16:01:12,120 [main] INFO Habitos - LOGIN - Verify that if the Password  field is present 
+2019-04-23 16:01:12,148 [main] INFO Habitos - LOGIN - Verify that if the password fields get focused
+2019-04-23 16:01:13,161 [main] INFO Habitos - LOGIN - Verify that if the user can't able to login with Invalid credentials
+2019-04-23 16:01:13,365 [main] INFO Habitos - LOGIN - Verify that if the User Name field is present 
+2019-04-23 16:01:13,396 [main] INFO Habitos - LOGIN - Verify that if the username fields get autofocus
+2019-04-23 16:01:13,797 [main] INFO Habitos - LOGIN - Verify that if the Password  field is present 
+2019-04-23 16:01:13,848 [main] INFO Habitos - LOGIN - Verify that if the password fields get focused
+2019-04-23 16:01:14,364 [main] INFO Habitos - LOGIN - Verify that if the user can't able to login with Invalid credentials
+2019-04-23 16:01:14,556 [main] INFO Habitos - LOGIN - Verify that if the username fields get autofocus
+2019-04-23 16:01:14,758 [main] INFO Habitos - LOGIN - Verify that if the user can enter the user name
+2019-04-23 16:01:14,881 [main] INFO Habitos - LOGIN - Verify that if the password fields get focused
+2019-04-23 16:01:15,149 [main] INFO Habitos - LOGIN - Verify that user can login with valid credentials
+2019-04-23 16:01:39,265 [main] ERROR Habitos - CRM _ INFO - Verify that if click CRM info it should redirect to crm info index screen 
+2019-04-23 16:01:39,281 [main] ERROR Habitos - CRM _ INFO - ADD - Verify that if click add new button it should redirect to add new screen
+2019-04-23 16:01:39,313 [main] ERROR Habitos - CRM _ INFO - Verify that user can enter the client name
+2019-04-23 16:01:39,329 [main] ERROR Habitos - CRM _ INFO - user can't able to enter the client  email - id
+2019-04-23 16:01:39,345 [main] ERROR Habitos - CRM _ INFO - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'ADMIN-PC', ip: '192.168.0.111', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\altius\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60329}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: cbea27a2245d2aba9d94f1f1da12b6ec
+*** Element info: {Using=id, value=tenant_image_attributes_image_path}
+2019-04-23 16:01:39,345 [main] ERROR Habitos - CRM _ INFO - Verify that if the customer logo image getting to upload
+2019-04-23 16:01:39,360 [main] ERROR Habitos - CRM _ INFO - user can't able to select the kitchen
+2019-04-23 16:01:39,376 [main] ERROR Habitos - CRM _ INFO - user can't able to enter the longtitude values
+2019-04-23 16:01:39,397 [main] ERROR Habitos - CRM _ INFO - Verify that if user can enter the contact person name
+2019-04-23 16:01:39,408 [main] ERROR Habitos - CRM _ INFO - Verify that if user can enter the Point of contact name
+2019-04-23 16:01:39,419 [main] ERROR Habitos - CRM _ INFO - Verify that user can enter the mobile number in mobile field
+2019-04-23 16:01:39,430 [main] ERROR Habitos - CRM _ INFO - Verify that user can enter the POC mobile number in mobile no field
+2019-04-23 16:01:39,444 [main] ERROR Habitos - CRM _ INFO - Verify that if the user can enter the GST NO
+2019-04-23 16:01:39,459 [main] ERROR Habitos - CRM _ INFO - Verify that user can click the client color
+2019-04-23 16:01:39,472 [main] ERROR Habitos - CRM _ INFO - Verify that user can able to select the meal time
+2019-04-23 16:01:39,483 [main] ERROR Habitos - CRM _ INFO - Verify that user can able to select meal type
+2019-04-23 16:01:39,493 [main] ERROR Habitos - CRM _ INFO - Verify that user can able to select Student type
+2019-04-23 16:01:39,504 [main] ERROR Habitos - CRM _ INFO - Verify that user can able to enter the total count
+2019-04-23 16:01:39,513 [main] INFO Habitos - CRM _ INFO - Verify that user can able to select the consume time
+2019-04-23 16:01:39,524 [main] INFO Habitos - CRM _ INFO - Verify that user can able to select the dispatch time
+2019-04-23 16:01:39,535 [main] INFO Habitos - CRM _ INFO - Verify that user can able to select the delivery time
+2019-04-23 16:01:44,553 [main] ERROR Habitos - CRM _ INFO - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'ADMIN-PC', ip: '192.168.0.111', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\altius\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60329}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: cbea27a2245d2aba9d94f1f1da12b6ec
+2019-04-23 16:01:44,557 [main] ERROR Habitos - CRM _ INFO - Verify that user can able to click the  submit button
+2019-04-23 16:01:51,626 [main] ERROR Habitos - CRM _ INFO - UPDATE - Verify that the User can able to click edit button
+2019-04-23 16:01:54,191 [main] ERROR Habitos - CRM _ INFO - VIEW  - Verify that if click view icon it should display the view screen automatically
+2019-04-23 16:01:54,191 [main] ERROR Habitos - CRM _ INFO - VIEW  - Verify that the client values are correctly displayed or not
+2019-04-23 16:02:23,878 [main] ERROR Habitos - Menu Planner - Verify  that if click master menu it getting to collapse
+2019-04-23 16:22:22,051 [main] INFO Habitos - LOGIN - browser gets open
+2019-04-23 16:22:28,065 [main] INFO Habitos - LOGIN - browser gets valid ip address
+2019-04-23 16:22:28,481 [main] INFO Habitos - LOGIN - Verify that if the User Name field is present 
+2019-04-23 16:22:28,543 [main] INFO Habitos - LOGIN - Verify that if the username fields get autofocus
+2019-04-23 16:22:29,103 [main] INFO Habitos - LOGIN - Verify that if the Password  field is present 
+2019-04-23 16:22:29,153 [main] INFO Habitos - LOGIN - Verify that if the password fields get focused
+2019-04-23 16:22:30,418 [main] INFO Habitos - LOGIN - Verify that if the user can't able to login with Invalid credentials
+2019-04-23 16:22:35,835 [main] INFO Habitos - LOGIN - Verify that if the User Name field is present 
+2019-04-23 16:22:35,896 [main] INFO Habitos - LOGIN - Verify that if the username fields get autofocus
+2019-04-23 16:22:36,805 [main] INFO Habitos - LOGIN - Verify that if the Password  field is present 
+2019-04-23 16:22:36,832 [main] INFO Habitos - LOGIN - Verify that if the password fields get focused
+2019-04-23 16:22:37,956 [main] INFO Habitos - LOGIN - Verify that if the user can't able to login with Invalid credentials
+2019-04-23 16:22:38,270 [main] INFO Habitos - LOGIN - Verify that if the username fields get autofocus
+2019-04-23 16:22:38,669 [main] INFO Habitos - LOGIN - Verify that if the user can enter the user name
+2019-04-23 16:22:38,872 [main] INFO Habitos - LOGIN - Verify that if the password fields get focused
+2019-04-23 16:22:39,131 [main] INFO Habitos - LOGIN - Verify that user can login with valid credentials
+2019-04-23 16:25:35,610 [main] INFO Habitos - LOGIN - browser gets open
+2019-04-23 16:25:41,832 [main] INFO Habitos - LOGIN - browser gets valid ip address
+2019-04-23 16:25:42,222 [main] INFO Habitos - LOGIN - Verify that if the User Name field is present 
+2019-04-23 16:25:42,256 [main] INFO Habitos - LOGIN - Verify that if the username fields get autofocus
+2019-04-23 16:25:42,654 [main] INFO Habitos - LOGIN - Verify that if the Password  field is present 
+2019-04-23 16:25:42,688 [main] INFO Habitos - LOGIN - Verify that if the password fields get focused
+2019-04-23 16:25:43,723 [main] INFO Habitos - LOGIN - Verify that if the user can't able to login with Invalid credentials
+2019-04-23 16:25:43,939 [main] INFO Habitos - LOGIN - Verify that if the User Name field is present 
+2019-04-23 16:25:43,985 [main] INFO Habitos - LOGIN - Verify that if the username fields get autofocus
+2019-04-23 16:25:44,486 [main] INFO Habitos - LOGIN - Verify that if the Password  field is present 
+2019-04-23 16:25:44,541 [main] INFO Habitos - LOGIN - Verify that if the password fields get focused
+2019-04-23 16:25:45,084 [main] INFO Habitos - LOGIN - Verify that if the user can't able to login with Invalid credentials
+2019-04-23 16:25:45,295 [main] INFO Habitos - LOGIN - Verify that if the username fields get autofocus
+2019-04-23 16:25:45,544 [main] INFO Habitos - LOGIN - Verify that if the user can enter the user name
+2019-04-23 16:25:45,672 [main] INFO Habitos - LOGIN - Verify that if the password fields get focused
+2019-04-23 16:25:45,898 [main] INFO Habitos - LOGIN - Verify that user can login with valid credentials
+2019-04-23 16:26:13,549 [main] INFO Habitos - CRM _ INFO - Verify that if click CRM info it should redirect to crm info index screen 
+2019-04-23 16:26:16,686 [main] INFO Habitos - CRM _ INFO - ADD - Verify that if click add new button it should redirect to add new screen
+2019-04-23 16:26:16,784 [main] INFO Habitos - CRM _ INFO - Verify that if the user name field is focused
+2019-04-23 16:26:17,611 [main] INFO Habitos - CRM _ INFO - User can enter the name in name field

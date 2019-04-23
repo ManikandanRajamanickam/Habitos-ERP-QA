@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   
+  <test name="Test1">
+		<classes>
+			 <class name="Idlidabba.ERP.Login"/>
+		</classes>
+	</test> <!-- Test1 -->
+
+	<test name="Test2">
+		<classes>
+			<class name="Idlidabba.ERP.Crm"/>
+		</classes>
+	</test> <!-- Test2 --> 
+
+	<test name="Test3">
+		<classes>
+			<class name="Idlidabba.ERP.MenuPlanner"/>
+		</classes>
+	</test> <!-- Test3 -->
+ 
+	<test name="Test4">
+		<classes>
+			<class name="Idlidabba.ERP.MenuCycle"/>
+		</classes>
+	</test> <!-- Test4 -->
+
+	<test name="Test5">
+		<classes>
+			<class name="Idlidabba.ERP.Cooksheet"/>
+		</classes>
+	</test> <!-- Test5 -->
+	
+	<test name="Test6">
+		<classes>
+			 <class name="Idlidabba.ERP.Utensils"/>
+		</classes>
+	</test> <!-- Test6 -->
+
+	<test name="Test7">
+		<classes>
+			<class name="Idlidabba.ERP.Department"/>
+		</classes>
+	</test> <!-- Test7 -->
+
+	<test name="Test8">
+		<classes>
+			 <class name="Idlidabba.ERP.Depriceation"/>
+		</classes>
+	</test> <!-- Test8 -->
+ 
+	<test name="Test9">
+		<classes>
+			 <class name="Idlidabba.ERP.Assets"/>
+		</classes>
+	</test> <!-- Test9 -->
+
+	<test name="Test10">
+		<classes>
+			 <class name="Idlidabba.ERP.VesselPlanner"/>
+		</classes>
+	</test> <!-- Test10 -->
+    
+	<test name="Test11">
+		<classes>
+			<class name="Idlidabba.ERP.VesselDispatch"/>
+		</classes>
+	</test> <!-- Test11 -->
+
+	<test name="Test12">
+		<classes>
+			 <class name="Idlidabba.ERP.AssignedMenu"/>
+		</classes>
+	</test> <!-- Test12 --> 
+  
+</suite> <!-- Suite -->

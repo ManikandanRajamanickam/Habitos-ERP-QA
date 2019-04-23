@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31164" started-at="2019-04-23T10:52:15Z" finished-at="2019-04-23T10:52:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31164" started-at="2019-04-23T10:52:15Z" finished-at="2019-04-23T10:52:47Z">
+      <class name="Idlidabba.ERP.Login">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Idlidabba.ERP.Login@c038203]" name="beforeTest" is-config="true" duration-ms="12107" started-at="2019-04-23T16:22:15Z" finished-at="2019-04-23T16:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Invalid_Login()[pri:1, instance:Idlidabba.ERP.Login@c038203]" name="Invalid_Login" duration-ms="2300" started-at="2019-04-23T16:22:28Z" finished-at="2019-04-23T16:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Login -->
+        <test-method status="PASS" signature="Invalid_Login1()[pri:2, instance:Idlidabba.ERP.Login@c038203]" name="Invalid_Login1" duration-ms="7527" started-at="2019-04-23T16:22:30Z" finished-at="2019-04-23T16:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Login1 -->
+        <test-method status="PASS" signature="Valid_Login()[pri:3, instance:Idlidabba.ERP.Login@c038203]" name="Valid_Login" duration-ms="6990" started-at="2019-04-23T16:22:37Z" finished-at="2019-04-23T16:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_Login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Idlidabba.ERP.Login@c038203]" name="afterTest" is-config="true" duration-ms="2149" started-at="2019-04-23T16:22:44Z" finished-at="2019-04-23T16:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Idlidabba.ERP.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

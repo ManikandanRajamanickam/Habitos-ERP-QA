@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Idlidabba.ERP.Crm">
+        <methods>
+          <include name="Valid_Login"/>
+          <include name="crm_info_Mealinfo"/>
+          <include name="crm_info_update"/>
+        </methods>
+      </class> <!-- Idlidabba.ERP.Crm -->
+      <class name="Idlidabba.ERP.Login">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Idlidabba.ERP.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
