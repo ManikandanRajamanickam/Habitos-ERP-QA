@@ -28,6 +28,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
@@ -153,35 +154,28 @@ import org.testng.annotations.AfterTest;
 
 			logger.error("Verify  that if click master menu it getting to collapse");
 		}
-
 	   
 		// EDIT BUTTON
-	   
-	   
-	   try {
-		   
-		   // Client Filter
-		
-		   WebElement srch = d.findElement(By.xpath("//input[@type='search']"));
-		   
-			if (srch.isDisplayed()) {
+	   	   
+		try {
 
-				srch.sendKeys("Today Lunch 23/04");
+			// Client Filter
 
-				WebElement row = d.findElement(By.xpath("//td[@class='ng-binding sorting_1']"));
+			WebElement srch = d.findElement(By.xpath("//input[@type='search']"));
 
-				row.isDisplayed();
+			srch.sendKeys("Today Lunch 23/04");
 
-				logger.info("If Search the Plan name into search box it should fileter the plan");
+			WebElement row = d.findElement(By.xpath("//td[@class='ng-binding sorting_1']"));
 
-			}
+			row.isDisplayed();
+
+			logger.info("If Search the Plan name into search box it should fileter the plan");
 
 		} catch (Exception e) {
 
 			logger.error("If Search the Plan name into search box it should fileter the plan");
 
 		}
-	   
 	   
 	   // Client Edit
 	   
