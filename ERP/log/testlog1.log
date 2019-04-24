@@ -229,3 +229,7 @@ Session ID: cbea27a2245d2aba9d94f1f1da12b6ec
 2019-04-23 18:26:48,683 [main] INFO  Habitos - Menu Cycle - If Search the Plan name into search box it should fileter the plan
 2019-04-23 18:26:54,133 [main] INFO  Habitos - Menu Cycle - If click edit button it should redirect to related screen
 2019-04-23 18:27:20,263 [main] ERROR  Habitos - Menu Cycle - Verify that if should open the card while clicking the plan name
+2019-04-23 18:50:51,953 [main] INFO  Habitos - Menu Cycle - browser gets open
+2019-04-23 18:50:58,467 [main] ERROR  Habitos - Menu Cycle - Verify  that if click master menu it getting to collapse
+2019-04-23 18:50:58,500 [main] ERROR  Habitos - Menu Cycle - If Search the Plan name into search box it should fileter the plan
+2019-04-23 18:50:58,827 [main] INFO  Habitos - Menu Cycle - If click edit button it should redirect to related screen

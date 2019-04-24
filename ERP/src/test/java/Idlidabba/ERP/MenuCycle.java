@@ -29,6 +29,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
@@ -161,7 +162,7 @@ import org.testng.annotations.AfterTest;
 
 			// Client Filter
 
-			WebElement srch = d.findElement(By.xpath("//input[@type='search']"));
+			WebElement srch = d.findElement(By.xpath("//label[contains(text(),'Search:')]//input"));
 
 			srch.sendKeys("Today Lunch 23/04");
 
@@ -196,10 +197,9 @@ import org.testng.annotations.AfterTest;
 				
 			}
 			
-
 			WebElement title = d.findElement(By.xpath("//h1[@class='planner-title page_title']"));
 			
-			String Mcycle = "Menu Cycle Assign";		
+			String Mcycle = "Menu Cycle Assign";
 									
 			if (title.getText().equals(Mcycle)) {
 					
