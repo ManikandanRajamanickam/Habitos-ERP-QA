@@ -31,6 +31,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
@@ -119,7 +120,7 @@ import org.testng.annotations.AfterTest;
    
    public void menu_cycle() throws IOException {
 	   
-	   try {
+		try {
 
 			Thread.sleep(200);
 
@@ -130,26 +131,33 @@ import org.testng.annotations.AfterTest;
 			logger.info("Verify  that if click master menu it getting to collapse");
 
 			WebElement m_cycle = d.findElement(By.xpath("//span[contains(text(),'Masters')]"));
-			
-			if (m_cycle.isDisplayed()) {
-								
-				m_cycle.click();
-				
-				logger.info("If click Master Menu it should display the sub menus");
-				
-			}
 
-			Thread.sleep(2000);
+			m_cycle.isDisplayed();
+
+			m_cycle.click();
+
+			logger.info("If click Master Menu it should display the sub menus");
+
+		}
+
+		catch (Exception e) {
+			
+			logger.error("If click Master Menu it should display the sub menus");
+		}
+
+		
+	   
+	   try {
+		   
+		   Thread.sleep(2000);
 			
 			WebElement menucycle = d.findElement(By.xpath("//a[contains(text(),'Menu Cycle')]"));
 			
-			if (menucycle.isDisplayed()) {
+			 menucycle.isDisplayed();
 				
 			menucycle.click();
-							
-			}
-			
-			String url = "http://192.168.1.230:4000/normalmenu_sites/menu_cycle#";
+						
+			String url = "http://192.168.1.73:4000/normalmenu_sites/menu_cycle";
 			
 			if (d.getCurrentUrl().equals(url)) {
 				
@@ -161,6 +169,7 @@ import org.testng.annotations.AfterTest;
 
 			logger.error("Verify  that if click master menu it getting to collapse");
 		}
+ 			
 	   
 		// EDIT BUTTON
 	   	   
