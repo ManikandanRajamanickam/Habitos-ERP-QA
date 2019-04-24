@@ -39,6 +39,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
@@ -403,9 +404,9 @@ import org.testng.annotations.AfterTest;
 
 			Thread.sleep(200);
 			
-			WebElement cdate = d.findElement(By.xpath("//span[@class='input-group-btn']//button[@type='button']"));
+			/*WebElement cdate = d.findElement(By.xpath("//span[@class='input-group-btn']//button[@type='button']"));
 			
-			cdate.click();
+			cdate.click();*/
 
 			Thread.sleep(200);
 
