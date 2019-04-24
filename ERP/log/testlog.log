@@ -248,3 +248,5 @@ Session ID: cbea27a2245d2aba9d94f1f1da12b6ec
 2019-04-24 13:16:06,579 -  Habitos - Menu Cycle -INFO - verify that if the check box is checked or not
 2019-04-24 13:16:09,104 -  Habitos - Menu Cycle -INFO - User can click the update button
 2019-04-24 13:16:11,125 -  Habitos - Menu Cycle -INFO - If click update button it should display the alert message
+2019-04-24 14:37:29,576 -  Habitos - Menu Cycle -INFO - browser gets open
+2019-04-24 14:37:33,754 -  Habitos - Menu Cycle -ERROR - If click Master Menu it should display the sub menus

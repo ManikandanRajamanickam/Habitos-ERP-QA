@@ -402,7 +402,7 @@ import org.testng.annotations.AfterTest;
 			
 			currentdate.click();
 
-			currentdate.sendKeys("23-April-2019");
+			currentdate.sendKeys("24-April-2019");
 			
 			Thread.sleep(200);
 
@@ -418,30 +418,7 @@ import org.testng.annotations.AfterTest;
 
 			logger.error("verify that user can assign the date");
 		}
-			
-			
-		// Check Box checking
-		
-		/*try {
-
-			WebElement check = d.findElement(By.xpath("//*[@id=\"collapse0\"]/div/div/table/thead/tr/th[1]/label/input"));
-
-			if (!check.isSelected()) {
-
-				check.click();
-
-				logger.info("Verify that user can able to select the check box");
-
-				System.out.println("alrady isn't selected");
-
-			}
-
-		} catch (Exception e) {
-
-			System.out.println("alrady Selected");
-
-		}*/
-				
+			 
 	// TENANT UPDATE
 
 		try {
