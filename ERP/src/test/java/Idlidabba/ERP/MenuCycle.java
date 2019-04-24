@@ -38,6 +38,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
@@ -173,7 +174,11 @@ import org.testng.annotations.AfterTest;
 			}*/
 							
 			} catch (Exception e) {
-			
+				
+				
+				File screenshotFile = ((TakesScreenshot) d).getScreenshotAs(OutputType.FILE);
+
+				FileUtils.copyFile(screenshotFile, new File("C:\\Screenshots\\mc.jpg"));
 
 			logger.error("Verify  that if click menu cycle it should redirect to related screen");
 		}
@@ -380,7 +385,7 @@ import org.testng.annotations.AfterTest;
 		
 	@Test (priority = 5)
 	
-	public void Menu_cycle_plan() {
+	public void Menu_cycle_plan() throws IOException {
 					
 		// Menu Cycle Assign
 
@@ -422,6 +427,12 @@ import org.testng.annotations.AfterTest;
 
 		} catch (Exception e) {
 
+			
+			File screenshotFile = ((TakesScreenshot) d).getScreenshotAs(OutputType.FILE);
+
+			FileUtils.copyFile(screenshotFile, new File("C:\\Screenshots\\date.jpg"));
+
+			
 			logger.error("verify that user can assign the date");
 		}
 			 
