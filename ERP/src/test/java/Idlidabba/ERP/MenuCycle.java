@@ -35,6 +35,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
@@ -121,35 +122,34 @@ import org.testng.annotations.AfterTest;
    
    @Test (priority = 2)
    
-   public void menu_cycle() throws IOException {
+   public void master() throws IOException {
 	   
-		try {
+	   try {
 
 			Thread.sleep(200);
 
-			WebElement master = d.findElement(By.id("sidebarCollapse"));
+			WebElement sidebar = d.findElement(By.id("sidebarCollapse"));
+
+			sidebar.click();
+
+			logger.info("Verify  that if click master menu it getting to collapse");
+
+			WebElement master = d.findElement(By.xpath("//span[contains(text(),'Masters')]"));
 
 			master.click();
 
-			logger.info("Verify  that if click master menu it getting to collapse");
-			
-			Thread.sleep(300);
+			Thread.sleep(2000);
+					 
+			} catch (Exception e) {
 
-			WebElement m_cycle = d.findElement(By.xpath("/html[1]/body[1]/div[1]/nav[1]/div[2]/div[1]/div[1]/a[6]"));
- 
-			m_cycle.click();
-
-			logger.info("If click Master Menu it should display the sub menus");
-
+			logger.error("Verify  that if click master menu it getting to collapse");
 		}
-
-		catch (Exception e) {
-			
-			logger.error("If click Master Menu it should display the sub menus");
-		}
-
-		
-	   
+   }
+   
+   
+   @Test (priority = 3)
+   public void menu_cyc() throws IOException {
+	  
 	   try {
 		   
 		   Thread.sleep(2000);
@@ -242,7 +242,7 @@ import org.testng.annotations.AfterTest;
       
    	// ****************************************** //
    
-	@Test (priority = 3)
+	@Test (priority = 4)
 	
 	public void Menu_cyclePlan() {
 
@@ -371,7 +371,7 @@ import org.testng.annotations.AfterTest;
 	
 	// ****************************************** //
 		
-	@Test (priority = 4)
+	@Test (priority = 5)
 	
 	public void Menu_cycle_plan() {
 					

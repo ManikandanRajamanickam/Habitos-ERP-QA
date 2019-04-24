@@ -250,3 +250,40 @@ Session ID: cbea27a2245d2aba9d94f1f1da12b6ec
 2019-04-24 13:16:11,125 [main] INFO  Habitos - Menu Cycle - If click update button it should display the alert message
 2019-04-24 14:37:29,576 [main] INFO  Habitos - Menu Cycle - browser gets open
 2019-04-24 14:37:33,754 [main] ERROR  Habitos - Menu Cycle - If click Master Menu it should display the sub menus
+2019-04-24 15:03:38,217 [main] INFO  Habitos - Menu Cycle - browser gets open
+2019-04-24 15:03:49,952 [main] INFO  Habitos - Menu Cycle - Verify  that if click master menu it getting to collapse
+2019-04-24 15:03:50,717 [main] INFO  Habitos - Menu Cycle - If click Master Menu it should display the sub menus
+2019-04-24 15:03:55,115 [main] INFO  Habitos - Menu Cycle - If click menu cycle menu it should redirect to related screen
+2019-04-24 15:03:58,379 [main] INFO  Habitos - Menu Cycle - If Search the Plan name into search box it should fileter the plan
+2019-04-24 15:04:04,478 [main] INFO  Habitos - Menu Cycle - If click edit button it should redirect to related screen
+2019-04-24 15:04:24,617 [main] INFO  Habitos - Menu Cycle - Verify that if sub plan is displayed or not
+2019-04-24 15:04:25,253 [main] INFO  Habitos - Menu Cycle - Verify that if should open the card while clicking the plan name
+2019-04-24 15:04:27,564 [main] INFO  Habitos - Menu Cycle - Veify that if click tenant name it should open the relared meal card
+2019-04-24 15:04:28,686 [main] INFO  Habitos - Menu Cycle - Verify that if the client type is correct
+2019-04-24 15:04:28,892 [main] INFO  Habitos - Menu Cycle - Verify that if the client category is correctly displayed
+2019-04-24 15:04:29,060 [main] INFO  Habitos - Menu Cycle - Verify that if the spread type is displayed corrected
+2019-04-24 15:04:32,549 [main] INFO  Habitos - Menu Cycle - verify that user can assign the date
+2019-04-24 15:04:32,885 [main] INFO  Habitos - Menu Cycle - verify that if the check box is checked or not
+2019-04-24 15:04:40,957 [main] ERROR  Habitos - Menu Cycle - verify that if the check box is checked or not
+2019-04-24 15:04:49,059 [main] ERROR  Habitos - Menu Cycle - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'ADMIN-PC', ip: '192.168.0.111', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\altius\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63137}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: d0d3491abb8e5d6ef9028eeef2b82639
+2019-04-24 15:04:49,059 [main] ERROR  Habitos - Menu Cycle - If click update button it should display the alert message
+2019-04-24 16:59:18,951 [main] INFO  Habitos - Menu Cycle - browser gets open
+2019-04-24 16:59:30,464 [main] INFO  Habitos - Menu Cycle - Verify  that if click master menu it getting to collapse
+2019-04-24 17:00:03,096 [main] ERROR  Habitos - Menu Cycle - Verify that if should open the card while clicking the plan name
+2019-04-24 17:00:05,169 [main] ERROR  Habitos - Menu Cycle - Veify that tenant name is present
+2019-04-24 17:00:05,186 [main] ERROR  Habitos - Menu Cycle - Verify that if the client type is correct
+2019-04-24 17:00:05,205 [main] ERROR  Habitos - Menu Cycle - Verify that if the client category is correctly displayed 
+2019-04-24 17:00:05,221 [main] ERROR  Habitos - Menu Cycle - Verify that if the spread type is displayed corrected
+2019-04-24 17:00:44,264 [main] INFO  Habitos - Menu Cycle - browser gets open
+2019-04-24 17:00:56,597 [main] INFO  Habitos - Menu Cycle - Verify  that if click master menu it getting to collapse
+2019-04-24 17:01:03,847 [main] INFO  Habitos - Menu Cycle - If click menu cycle menu it should redirect to related screen
+2019-04-24 17:01:06,532 [main] INFO  Habitos - Menu Cycle - If Search the Plan name into search box it should fileter the plan
+2019-04-24 17:01:11,857 [main] INFO  Habitos - Menu Cycle - If click edit button it should redirect to related screen
