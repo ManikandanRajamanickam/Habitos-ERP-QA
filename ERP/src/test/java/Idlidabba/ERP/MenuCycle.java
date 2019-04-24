@@ -37,6 +37,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
@@ -121,11 +122,11 @@ import org.testng.annotations.AfterTest;
       
    // MENU CYCLE ASSIGN
    
-   @Test (priority = 2)
-   
-   public void master() throws IOException {
-	   
-	   try {
+	@Test(priority = 2)
+
+	public void master() throws IOException {
+
+		try {
 
 			Thread.sleep(200);
 
@@ -133,20 +134,19 @@ import org.testng.annotations.AfterTest;
 
 			sidebar.click();
 
-			logger.info("Verify  that if click master menu it getting to collapse");
-
 			WebElement master = d.findElement(By.xpath("//span[contains(text(),'Masters')]"));
 
 			master.click();
 
-			Thread.sleep(2000);
-					 
-			} catch (Exception e) {
+			logger.info("Verify that if click master menu it getting to collapse");
 
-			logger.error("Verify  that if click master menu it getting to collapse");
+			Thread.sleep(2000);
+
+		} catch (Exception e) {
+
+			logger.info("Verify that if click master menu it getting to collapse");
 		}
-   }
-   
+	}
    
    @Test (priority = 3)
    
@@ -158,7 +158,7 @@ import org.testng.annotations.AfterTest;
 
 			WebElement menucycle = d.findElement(By.xpath("//a[contains(text(),'Menu Cycle')]"));
 
-			menucycle.isDisplayed();
+			//menucycle.isDisplayed();
 
 			menucycle.click();
 			

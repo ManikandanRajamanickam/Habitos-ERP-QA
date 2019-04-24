@@ -287,3 +287,16 @@ Session ID: d0d3491abb8e5d6ef9028eeef2b82639
 2019-04-24 17:01:03,847 -  Habitos - Menu Cycle -INFO - If click menu cycle menu it should redirect to related screen
 2019-04-24 17:01:06,532 -  Habitos - Menu Cycle -INFO - If Search the Plan name into search box it should fileter the plan
 2019-04-24 17:01:11,857 -  Habitos - Menu Cycle -INFO - If click edit button it should redirect to related screen
+2019-04-24 17:07:11,619 -  Habitos - Menu Cycle -INFO - browser gets open
+2019-04-24 17:07:22,501 -  Habitos - Menu Cycle -INFO - Verify  that if click master menu it getting to collapse
+2019-04-24 17:07:29,426 -  Habitos - Menu Cycle -INFO - Verify  that if click menu cycle it should redirect to related screen
+2019-04-24 17:07:33,242 -  Habitos - Menu Cycle -INFO - If Search the Plan name into search box it should fileter the plan
+2019-04-24 17:07:38,772 -  Habitos - Menu Cycle -INFO - If click edit button it should redirect to related screen
+2019-04-24 17:07:58,891 -  Habitos - Menu Cycle -INFO - Verify that if sub plan is displayed or not
+2019-04-24 17:07:59,532 -  Habitos - Menu Cycle -INFO - Verify that if should open the card while clicking the plan name
+2019-04-24 17:08:01,846 -  Habitos - Menu Cycle -INFO - Veify that if click tenant name it should open the relared meal card
+2019-04-24 17:08:02,738 -  Habitos - Menu Cycle -INFO - Verify that if the client type is correct
+2019-04-24 17:08:02,947 -  Habitos - Menu Cycle -INFO - Verify that if the client category is correctly displayed
+2019-04-24 17:08:03,107 -  Habitos - Menu Cycle -INFO - Verify that if the spread type is displayed corrected
+2019-04-24 17:08:06,218 -  Habitos - Menu Cycle -INFO - verify that user can assign the date
+2019-04-24 17:08:06,519 -  Habitos - Menu Cycle -INFO - verify that if the check box is checked or not
