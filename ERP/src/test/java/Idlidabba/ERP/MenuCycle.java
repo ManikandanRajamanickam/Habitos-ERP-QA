@@ -34,6 +34,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
@@ -134,10 +135,8 @@ import org.testng.annotations.AfterTest;
 			
 			Thread.sleep(300);
 
-			WebElement m_cycle = d.findElement(By.xpath("//span[contains(text(),'Masters')]"));
-
-			m_cycle.isDisplayed();
-
+			WebElement m_cycle = d.findElement(By.xpath("/html[1]/body[1]/div[1]/nav[1]/div[2]/div[1]/div[1]/a[6]"));
+ 
 			m_cycle.click();
 
 			logger.info("If click Master Menu it should display the sub menus");
@@ -187,7 +186,7 @@ import org.testng.annotations.AfterTest;
 
 			WebElement srch = d.findElement(By.xpath("//label[contains(text(),'Search:')]//input"));
 
-			srch.sendKeys("Today Lunch 23/04");
+			srch.sendKeys("test");
 
 			WebElement row = d.findElement(By.xpath("//td[@class='ng-binding sorting_1']"));
 
