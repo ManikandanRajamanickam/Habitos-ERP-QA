@@ -36,6 +36,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
@@ -148,29 +149,33 @@ import org.testng.annotations.AfterTest;
    
    
    @Test (priority = 3)
+   
    public void menu_cyc() throws IOException {
 	  
 	   try {
 		   
-		   Thread.sleep(2000);
-			
+			Thread.sleep(2000);
+
 			WebElement menucycle = d.findElement(By.xpath("//a[contains(text(),'Menu Cycle')]"));
-			
-			 menucycle.isDisplayed();
-				
+
+			menucycle.isDisplayed();
+
 			menucycle.click();
+			
+			logger.info("Verify  that if click menu cycle it should redirect to related screen");						
 						
-			String url = "http://192.168.1.230:4000/normalmenu_sites/menu_cycle";
+			/*String url = "http://192.168.1.230:4000/normalmenu_sites/menu_cycle";
 			
 			if (d.getCurrentUrl().equals(url)) {
 				
 				logger.info("If click menu cycle menu it should redirect to related screen");	
 				
-			}
+			}*/
 							
 			} catch (Exception e) {
+			
 
-			logger.error("Verify  that if click master menu it getting to collapse");
+			logger.error("Verify  that if click menu cycle it should redirect to related screen");
 		}
  			
 	   
@@ -187,6 +192,8 @@ import org.testng.annotations.AfterTest;
 			WebElement srch = d.findElement(By.xpath("//label[contains(text(),'Search:')]//input"));
 
 			srch.sendKeys("test");
+			
+			Thread.sleep(500);
 
 			WebElement row = d.findElement(By.xpath("//td[@class='ng-binding sorting_1']"));
 
