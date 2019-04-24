@@ -32,6 +32,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
@@ -176,6 +177,10 @@ import org.testng.annotations.AfterTest;
 		try {
 
 			// Client Filter
+			
+			d.get("http://192.168.1.73:4000/normalmenu_sites/menu_cycle");
+			
+			Thread.sleep(200);
 
 			WebElement srch = d.findElement(By.xpath("//label[contains(text(),'Search:')]//input"));
 
@@ -188,10 +193,10 @@ import org.testng.annotations.AfterTest;
 			logger.info("If Search the Plan name into search box it should fileter the plan");
 
 		} catch (Exception e) {
-			
-	           File screenshotFile = ((TakesScreenshot)d).getScreenshotAs(OutputType.FILE);
-	           
-	           FileUtils.copyFile(screenshotFile, new File("C:\\Screenshots\\mcy.jpg"));
+
+			File screenshotFile = ((TakesScreenshot) d).getScreenshotAs(OutputType.FILE);
+
+			FileUtils.copyFile(screenshotFile, new File("C:\\Screenshots\\mcy.jpg"));
 
 			logger.error("If Search the Plan name into search box it should fileter the plan");
 
