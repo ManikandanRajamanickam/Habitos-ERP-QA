@@ -33,6 +33,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
@@ -130,6 +131,8 @@ import org.testng.annotations.AfterTest;
 			master.click();
 
 			logger.info("Verify  that if click master menu it getting to collapse");
+			
+			Thread.sleep(300);
 
 			WebElement m_cycle = d.findElement(By.xpath("//span[contains(text(),'Masters')]"));
 
@@ -158,7 +161,7 @@ import org.testng.annotations.AfterTest;
 				
 			menucycle.click();
 						
-			String url = "http://192.168.1.73:4000/normalmenu_sites/menu_cycle";
+			String url = "http://192.168.1.230:4000/normalmenu_sites/menu_cycle";
 			
 			if (d.getCurrentUrl().equals(url)) {
 				
@@ -178,7 +181,7 @@ import org.testng.annotations.AfterTest;
 
 			// Client Filter
 			
-			d.get("http://192.168.1.73:4000/normalmenu_sites/menu_cycle");
+			d.get("http://192.168.1.230:4000/normalmenu_sites/menu_cycle");
 			
 			Thread.sleep(200);
 
