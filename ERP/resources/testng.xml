@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="Idlidabba.ERP.MenuCycle"/>
+      <class name="Idlidabba.ERP.MenuPlanner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
